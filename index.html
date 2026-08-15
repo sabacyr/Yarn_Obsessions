@@ -857,6 +857,29 @@ body {
 }
 
 /* =====================================================
+   WALKING GIF (struts along the top of the footer)
+   ===================================================== */
+.walk-strip {
+  position: relative;
+  height: 0;
+  z-index: 2;
+}
+.walk-gif {
+  position: absolute;
+  bottom: -46px;
+  left: 0;
+  width: 260px;
+  height: auto;
+  image-rendering: pixelated;
+  pointer-events: none;
+  animation: walk-across 22s linear infinite;
+}
+@keyframes walk-across {
+  0%   { transform: translateX(-320px); }
+  100% { transform: translateX(100vw); }
+}
+
+/* =====================================================
    TOOLS PAGE
    ===================================================== */
 .tools-grid {
@@ -1778,6 +1801,9 @@ body {
     </div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <span class="footer-moon" id="footerMoon">🌙</span>
     <div class="footer-made">
@@ -1842,6 +1868,9 @@ body {
     <div class="projects-grid" id="projects-grid"></div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <span class="footer-moon">🌙</span>
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
@@ -1903,6 +1932,9 @@ body {
     </div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
@@ -1954,6 +1986,9 @@ body {
     </div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
@@ -1983,6 +2018,9 @@ body {
     <div class="projects-grid" id="future-grid"></div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
@@ -2025,6 +2063,9 @@ body {
     </div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
@@ -2352,6 +2393,9 @@ body {
     </div><!-- end tools-grid -->
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
@@ -2388,6 +2432,9 @@ body {
     <div class="tutorials-grid" id="tutorials-grid"></div>
   </div>
 
+  <div class="walk-strip">
+    <img class="walk-gif" src="8bit walk 2.5 fps.gif" alt="Saba and her cats walking across the footer">
+  </div>
   <footer class="site-footer">
     <div class="footer-made">Made by <strong>Saba Cyr</strong> with <span class="claudeai">Claude AI</span></div>
     <a href="https://sabacyr.github.io" target="_blank" rel="noopener" class="footer-github">
