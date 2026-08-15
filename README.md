@@ -1,5 +1,5 @@
 # 🌙 Kamva Cove
-### Saba's Knitting & Crochet Compendium
+### Saba's Knitting & Crochet Diaries
  
 A Sailor Moon-inspired pixel art website for tracking knitting and crochet projects, browsing patterns, managing your yarn stash, and accessing craft tools — all in one place. Built for GitHub Pages.
  
