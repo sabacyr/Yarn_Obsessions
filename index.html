@@ -740,13 +740,6 @@ body {
 .stash-table tr:nth-child(even) td { background:var(--stash-even); }
 .stash-table tr:hover td { background:var(--stash-hover); }
 
-.weight-chip {
-  font-family:'Press Start 2P', monospace;
-  font-size:7px; padding:5px 9px;
-  background:var(--cosmic-soft); color:var(--cosmic);
-  border:1.5px solid var(--cosmic); border-radius:2px;
-  display:inline-block; letter-spacing:0.3px;
-}
 .swatch {
   display:inline-block; width:14px; height:14px;
   border-radius:2px; border:1px solid rgba(128,128,128,0.4);
@@ -3037,7 +3030,7 @@ function renderStash() {
       <td>${y.name}</td>
       <td><span class="swatch" style="background:${y.color};"></span>${y.colorway}</td>
       <td>${y.yardage}</td>
-      <td><span class="weight-chip">${y.weight}</span></td>
+      <td>${y.weight}</td>
       <td>${y.fiber}</td>
       <td>${y.skeins}</td>
       <td>${y.store}</td>
