@@ -1,4 +1,4 @@
-# 🌙 Starlight Stitches
+# 🌙 Kamva Cove
 ### Saba's Knitting & Crochet Compendium
  
 A Sailor Moon-inspired pixel art website for tracking knitting and crochet projects, browsing patterns, managing your yarn stash, and accessing craft tools — all in one place. Built for GitHub Pages.
@@ -11,8 +11,8 @@ A Sailor Moon-inspired pixel art website for tracking knitting and crochet proje
 your-repo/
 ├── index.html                          ← The entire site (one file!)
 ├── README.md                           ← This file
-├── Starlight Stitches Night Mode.png   ← Hero art (night)
-├── Starlight Stitches Day Mode.png     ← Hero art (day)
+├── Kamva Cove Night Mode.png   ← Hero art (night)
+├── Kamva Cove Day Mode.png     ← Hero art (day)
 ├── Bear Knit.png                       ← Bear the knit guardian
 ├── Rosie Crochet.png                   ← Rosie the crochet guardian
 ├── Mimi Stash.png                      ← Mimi the stash guardian
